@@ -1,0 +1,60 @@
+# baseURL = "peoriaproud.org/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Peoria Proud"
+theme = "lynx"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+    name = "Peoria Proud"
+    headline = "Connect with us"
+    image = "pp.png"  # path relative to static directory
+
+  links = [
+    { email = "mailto:admin@peoriaproud.org" },
+    { facebook = "https://www.facebook.com/peoriaproud" },
+    { web = {href = "https://peoriaproud.org", text = "Website"}},
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { codepen = "https://codepen.io/username" },
+    # { dev = "https://dev.to/username" },
+    # { discord = "https://discord.gg/invitecode" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+    # { github = "https://github.com/username" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+    #{ instagram = "https://instagram.com/username" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://lastfm.com/user/username" },
+    # { linkedin = "https://linkedin.com/in/username" },
+    # { mastodon = "https://mastodon.instance/@username" },
+    # { medium = "https://medium.com/username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://www.patreon.com/username" },
+    # { pinterest = "https://pinterest.com/username" },
+    # { reddit = "https://reddit.com/user/username" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    # { telegram = "https://t.me/username" },
+    { tiktok = "https://tiktok.com/@username" },
+    { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/username" },
+    { twitter = "https://twitter.com/username" },
+    # { whatsapp = "https://wa.me/phone-number" },
+    # { youtube = "https://youtube.com/username" },
+    { donation = {href = "https://www.zeffy.com/en-US/donation-form/1ce78079-e795-4dd8-a463-ce8d9ffed969", text = "Donate"}},
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
